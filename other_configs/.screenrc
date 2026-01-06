@@ -56,3 +56,29 @@ focus left
 resize -h +50
 
 layout attach one
+
+# ALTERNATIVE
+# default windows
+# screen -t General 0 zsh
+# screen -t CPU  1 htop
+# screen -t zsh 2 zsh
+
+# # Layouts
+# layout autosave on
+# select 0
+# split -v
+# focus right
+# split
+# select 1
+# focus down
+# select 2
+# focus left
+# select 0
+# resize -h +20
+
+
+# # 3. Save this initial state to the 'default' layout
+# layout save default
+
+# # 4. CRITICAL: Tell screen to stay on the 'default' layout
+# layout attach default
